@@ -1,0 +1,247 @@
+
+/* IMPORTANT INFORMATION  */
+
+:root {
+  --color-navy-blue: #2e2f42;
+  --color-white: #ffffff;
+  --color-cloud: #f4f4fd;
+  --color-cornflower: #e7e9fc;
+  --color-iris: #4d5ae5;
+  --color-slate: #434455;
+  --color-grey: #2e2f42;
+  --color-ocean: #404bbf;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+}
+.list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/* HEADER */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+
+.studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-grey);
+}
+
+.list .nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+.list .nav:hover,
+.list .nav:focus {
+  color: var(--color-ocean);
+
+}
+.header-contact {
+  font-style: normal;
+}
+
+.list:hover,
+.list:focus {
+  color: var(--color-ocean);
+}
+
+
+/* <!-- FIRST SECTION --> */
+
+
+.section {
+  background-color: var(--color-grey);
+}
+.section-first {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-white);
+}
+.button {
+  color: var(--color-white);
+  left: 636px;
+  top: 428px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background: var(--color-iris);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--color-ocean);
+
+
+  /* <!-- SECOND SECTION --> */
+}
+.section-text-second {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+.section-text-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/* <!-- SECTION THREE --> */
+
+.section-about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--color-grey);
+}
+
+/* <!-- SECTION FOUR --> */
+
+.section-four {
+  background-color: var(--color-cloud);
+}
+.color {
+  background-color: var(--color-white);
+}
+
+.section-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-grey);
+}
+.section-people {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+.section-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/* <!-- YEAH, FOOTER  --> */
+
+.done {
+  background-color: var(--color-grey);
+}
+.done-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+  font-family: "Raleway", sans-serif;
+}
+
+.done-studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-cloud);
+}
+.done-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+
+/* PORTFOLIO */
+
+/* <!-- SECTION 'BUTTONS ' --> */
+
+.button-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background: var(--color-cloud);
+  border: 1px solid var(--color-cornflower);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.button-two:hover,
+.button-two:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+  cursor: pointer;
+}
+
+
+/* <!-- MAIN CONTENT LIKE PICTURES  --> */
+
+
+.list-work {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.list-style {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
